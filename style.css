@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.left-side {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+.right-side {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none; 
+    display: flex;
+    gap: 40px;
+
+}
