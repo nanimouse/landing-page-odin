@@ -1,5 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* this is to stick the footer to the bottom of the page */
 }
 
 .header {
@@ -64,4 +67,102 @@ ul {
 }
 .awesome-website {
     max-width: 400px;
+}
+
+.info-div {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.info-div h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+}
+
+.images img {
+    border: #3882F6 solid 4px;
+    border-radius: 30px;
+}
+
+.images p {
+    text-align: center;
+}
+
+.quote-div {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    text-align: center;
+    padding: 115px;
+}
+
+.quote-div blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-div p {
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+    padding-right: 90px;
+}
+
+.call-container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 99px;
+    color: #fff;
+    padding: 50px 150px 0px 150px;
+    border-radius: 10px;
+}
+
+.call-to-action header {
+    font-size: 24px;
+    padding-bottom: 0px;
+}
+
+.call-to-action p {
+    margin-top: 0px;
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.call-to-action button {
+    background: none;
+    color: #fff;
+    width: 141px;
+    height: 43px;
+    border: #fff solid 3px;
+    border-radius: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 77px;
 }
